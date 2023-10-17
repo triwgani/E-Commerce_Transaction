@@ -30,8 +30,11 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 1. Sales Detail
 
    a. Page 1 will describe correlation between Sales value (before discount), Net Profit, and AOV (Average Order Value). The Net Profit and the AOV is are determined by the following formula:
-
-
+      ```sh
+      Net Profit = Sales value (after discount) - [COGS x Qty]
+      AOV = Sales value (before discount) / Total Unique Order
+      ```
+      
    b. There will be slicers of Order Date, Category, Sales Value, Value Transaction and Payment. The Value Transaction has the following condition:
 
    The payment will be described from payment_method dataset table.
@@ -45,7 +48,8 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 
    The default page view for all pages will depict all values in the period of year 2022.
 
-## Analyzing the data and Answering the questions
+## Analyzing the data and addressing the problems
+
 
 ## Conclusion
 We can use the looker dashboard not only to display numbers but also to find insights that can be useful in order to address any related issue. This analytical tool is also useful to provide a better understanding of the firm’s performance based on the agreed metrics shown, as well as to craft a better data-driven strategy.
