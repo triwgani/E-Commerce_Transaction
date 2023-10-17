@@ -52,3 +52,9 @@ We can use the looker dashboard not only to display numbers but also to find ins
 
 ## Visualization Dashboard
 The visualization dashboard of the above analysis can be found [here](https://lookerstudio.google.com/reporting/6d1e538c-2b0d-487b-bc9b-f7b4dd6eebd4)
+
+ ![](Viz1.png)
+ Visualization for Sales Detail
+
+ ![](Viz2.png)
+ Visualization for Sales Dashboard
