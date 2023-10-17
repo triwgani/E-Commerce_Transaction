@@ -28,14 +28,16 @@ The native dataset is from Kaggle — Pakistan Largest E-Commerce Dataset with s
 ## Problem Statement
 Following up a join meeting in a company, a data analyst team has been assigned to provide a dashboard. It will consist of 2 pages from which, the company will be able to monitor and evaluate monthly sales achievement. The dashboard has the following requirements:
 1. Sales Detail
+
    a. Page 1 will describe correlation between Sales value (before discount), Net Profit, and AOV (Average Order Value). The Net Profit and the AOV is are determined by the following formula:
 
 
    b. There will be slicers of Order Date, Category, Sales Value, Value Transaction and Payment. The Value Transaction has the following condition:
 
    The payment will be described from payment_method dataset table.
-2. Sales Dashboard
-   a. Page 2 will depict Table, Slicers and Scorecards, where the table consists of Product Name, Category, Category, Before Discount, After Discount, Net Profit, Qty, and Number of corresponding Unique Customer.
+3. Sales Dashboard
+
+    a. Page 2 will depict Table, Slicers and Scorecards, where the table consists of Product Name, Category, Category, Before Discount, After Discount, Net Profit, Qty, and Number of corresponding Unique Customer.
    b. Slicers consists of: Order Date, Category, Value Transaction, and Payment.
    c. Scorecard consists of: Before Discount, After Discount, Net Profit, Quantity, Total Number of Unique Customer, and AOV.
 
