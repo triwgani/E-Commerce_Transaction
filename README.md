@@ -51,10 +51,12 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 We can use the looker dashboard not only to display numbers but also to find insights that can be useful in order to address any related issue. This analytical tool is also useful to provide a better understanding of the firm’s performance based on the agreed metrics shown, as well as to craft a better data-driven strategy.
 
 ## Visualization Dashboard
-The visualization dashboard of the above analysis can be found [here](https://lookerstudio.google.com/reporting/6d1e538c-2b0d-487b-bc9b-f7b4dd6eebd4)
+The link for the online visualization dashboard of the above analysis can be found [here](https://lookerstudio.google.com/reporting/6d1e538c-2b0d-487b-bc9b-f7b4dd6eebd4)
+
 
  ![](Viz1.png)
  Visualization for Sales Detail
+
 
  ![](Viz2.png)
  Visualization for Sales Dashboard
