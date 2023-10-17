@@ -1,6 +1,8 @@
 # Data Analysis with Google Looker Studio — A case from a Paskitan’s Largest E-Commerce
 
 ## Introduction
+![](Looker.png)
+
 The case study is part#3 of the My Skill Data Analysis Bootcamp. By utilizing Google Looker Studio, we uncover the potential of this cutting-edge tool in deciphering valuable information about customer behavior, sales patterns, and market trends. Through this case study, we aim to showcase the practical applications of Google Looker Studio, its impact on decision-making processes, and its ability to drive business growth and success in the dynamic landscape of Pakistan’s e-commerce industry.
 
 ## Datasets
@@ -36,6 +38,10 @@ Following up a join meeting in a company, a data analyst team has been assigned 
       ```
       
    b. There will be slicers of Order Date, Category, Sales Value, Value Transaction and Payment. The Value Transaction has the following condition:
+      ```sh
+      If is_valid = 1 then Value Transaction is Valid => Customers have paid
+      If is_valid = 0 then Value Transaction is Not Valid => Customers have not paid
+      ```
 
    The payment will be described from payment_method dataset table.
 3. Sales Dashboard
@@ -49,7 +55,24 @@ Following up a join meeting in a company, a data analyst team has been assigned 
    The default page view for all pages will depict all values in the period of year 2022.
 
 ## Analyzing the data and addressing the problems
-
+- Adding Net Profit field:
+  ```sh
+      Net Profit = Sales value (after discount) - [COGS x Qty
+  ```
+  
+  
+- Adding Value Transaction field:
+  ```sh
+  case when is_valid = 1 then "valid"
+       when is_valid = 0 then "invalid"
+  end
+  ```
+  
+- Adding AOV (Average Order Value):
+  ```sh
+      AOV = Sales value (before discount) / Total Unique Order
+  ```
+  
 
 ## Conclusion
 We can use the looker dashboard not only to display numbers but also to find insights that can be useful in order to address any related issue. This analytical tool is also useful to provide a better understanding of the firm’s performance based on the agreed metrics shown, as well as to craft a better data-driven strategy.
