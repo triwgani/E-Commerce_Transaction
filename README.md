@@ -37,8 +37,10 @@ Following up a join meeting in a company, a data analyst team has been assigned 
    The payment will be described from payment_method dataset table.
 3. Sales Dashboard
 
-    a. Page 2 will depict Table, Slicers and Scorecards, where the table consists of Product Name, Category, Category, Before Discount, After Discount, Net Profit, Qty, and Number of corresponding Unique Customer.
+   a. Page 2 will depict Table, Slicers and Scorecards, where the table consists of Product Name, Category, Category, Before Discount, After Discount, Net Profit, Qty, and Number of corresponding Unique Customer.
+
    b. Slicers consists of: Order Date, Category, Value Transaction, and Payment.
+
    c. Scorecard consists of: Before Discount, After Discount, Net Profit, Quantity, Total Number of Unique Customer, and AOV.
 
    The default page view for all pages will depict all values in the period of year 2022.
