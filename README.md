@@ -73,23 +73,46 @@ Following up a join meeting in a company, a data analyst team has been assigned 
       AOV = Sales value (before discount) / Total Unique Order
   ```
 
-  ![](Jan2Apr.png)
-  
+
+![](Jan2Dec.png)
+
+
 Based on the chart on dashboard page 1, we can see the fluctuation value of Sales, Net Profit and AOV during the period of 2022. The three metrics in above picture (Value Sales, Profit, and AOV) depict an incremental trend during the first 4 months with their peaks that took place in April (USD 11.68M, USD 2.35M, and USD 899K, respectively) as well as a decremental trend from May to Septembery 2022. 
 
-  ![](May2Dec.png)
 
-After that, Sales, Net Profit, and AOV regained their positive trends until November 2022 with USD 7.72M, USD 9.01K, and 1.93M, respectively, before decreasing until the end of year.
+![](Jan2Apr.png)
 
-- Positive AOV → company is maximizing the revenue on each purchase, company grows.
+- Positive AOV trend → company is maximizing the revenue on each purchase, company grows.
 
-- Negative AOV → revenue is lower than the ideal and a strategy adjustment must be taken
+- Negative AOV trend → revenue is lower than the ideal and a strategy adjustment must be taken
 
-If we focus on the first 4 months when the trend is positive, customers prefer to buy a great amount of affordable or low-priced items, or some customers prefer to buy a small amount of high-priced item. Therefore, firm need to maintain the currently running campaign and make a campaign improvement. This can be done by:
+If we focus on the first 4 months when the trend is positive, customers prefer to buy a great amount of affordable or low-priced items, or some customers prefer to buy a small amount of high-priced item. Therefore, firm need to maintain the currently running campaign and make a campaign improvement.
 
->> Setting up a bundling and /or free delivery cost scheme for purchasing in a great amount for affordable or low-priced items.
+Recommendation:
 
->> Offering the customers protection on the products they buy for high-priced or premium items.
+a. Setting up a bundling and /or free delivery cost scheme for purchasing in a great amount for affordable or low-priced items.
+
+b. Offering the customers protection on the products they buy for high-priced or premium items.
+
+
+![](May2Dec.png)
+
+
+The Sales, Net Profit, and AOV xperienced a decreasing or negative trend fom May to September before and regained their positive trends during the following two months (October and peak at November 2022) with USD 7.72M, USD 9.01K, and USD 1.93M, respectively, before finally decreasing until the end of year.
+
+The negative trend between May and September 2022 might indicate that there is a possibility that customers prefer to buy much cheaper products. This can also mean that they hold their spending during the rest of the Q4, while waiting for their end year bonuses. Therefore, a pivotal campaign strategy needs to be taken by firm’s marketing team to drive more and more customers to browse the products which eventually lead them to make the purchases.
+
+Recommendation:
+
+a.Create a flash-sale campaign
+
+b. Sell the products on the discounted rates
+
+If we take a look closer of page 2 Sales Dashboard, we can make a deeper analysis from the dataset. We can find how many products have been sold and paid for Mobiles and Tablet Category during the year 2022, and how many customer made those purchase.
+
+![](P2.png)
+
+Based on table in page 2 of the visualization, there was total of 40 product in the Category of Mobiles and Tablets which have been sold and paid during the period of 2022. The number corresponds to 5 Customers who made and paid the purchases.
 
 ## Conclusion
 We can use the looker dashboard not only to display numbers but also to find insights that can be useful in order to address any related issue. This analytical tool is also useful to provide a better understanding of the firm’s performance based on the agreed metrics shown, as well as to craft a better data-driven strategy.
