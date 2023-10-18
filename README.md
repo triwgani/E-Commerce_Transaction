@@ -110,7 +110,7 @@ b. Sell the products on the discounted rates
 
 If we take a look closer of page 2 Sales Dashboard, we can make a deeper analysis from the dataset. We can find how many products have been sold and paid for Mobiles and Tablet Category during the year 2022, and how many customer made those purchase.
 
-![](P2.png)
+![](p2.png)
 
 Based on table in page 2 of the visualization, there was total of 40 product in the Category of Mobiles and Tablets which have been sold and paid during the period of 2022. The number corresponds to 5 Customers who made and paid the purchases.
 
