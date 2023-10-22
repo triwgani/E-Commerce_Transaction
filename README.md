@@ -6,7 +6,7 @@
 The case study is part#3 of the My Skill Data Analysis Bootcamp. By utilizing Google Looker Studio, we uncover the potential of this cutting-edge tool in deciphering valuable information about customer behavior, sales patterns, and market trends. Through this case study, we aim to showcase the practical applications of Google Looker Studio, its impact on decision-making processes, and its ability to drive business growth and success in the dynamic landscape of Pakistan’s e-commerce industry.
 
 ## Datasets
-The native dataset is from Kaggle — Pakistan Largest E-Commerce Dataset with several with several modification. The dataset is then modified for the purpose of our analysis and can be found [here](https://docs.google.com/spreadsheets/d/1NCPbRu42OYhEFii2jDErNYPVkeXDIdFj_Z7F13Wwj-M/edit?usp=share_link)
+The native dataset is from Kaggle — Pakistan Largest E-Commerce Dataset with several with several modification. The dataset is then modified for the purpose of our analysis and can be found [here](https://docs.google.com/spreadsheets/d/1xgM2RfgjL4KSFSzZCL98ryw653_-9cYLCt_iypV6OyQ/edit?usp=sharing)
 - id: unique number or code of an order / id_order
 - customer_id: customer unique number or code
 - order_date: the date when transaction took place
@@ -33,8 +33,8 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 
    a. Page 1 will describe correlation between Sales value (before discount), Net Profit, and AOV (Average Order Value). The Net Profit and the AOV is are determined by the following formula:
       ```sh
-      Net Profit = Sales value (after discount) - [COGS x Qty]
-      AOV = Sales value (before discount) / Total Unique Order
+      Net Profit = Sales Value (after_discount) - [COGS x Qty]
+      AOV = Sales Value (before_discount) / Tottal Unique Order
       ```
       
    b. There will be slicers of Order Date, Category, Sales Value, Value Transaction and Payment. The Value Transaction has the following condition:
@@ -57,36 +57,37 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 ## Analyzing the data and addressing the problems
 - Adding Net Profit field:
   ```sh
-      Net Profit = Sales value (after discount) - [COGS x Qty]
+      Net Profit = after discount - (COGS x Qty)
   ```
   
   
 - Adding Value Transaction field:
   ```sh
-  case when is_valid = 1 then "valid"
-       when is_valid = 0 then "invalid"
+  case when is_valid = 1 then "Valid"
+       when is_valid = 0 then "Invalid"
   end
   ```
   
 - Adding AOV (Average Order Value):
   ```sh
-      AOV = Sales value (before discount) / Total Unique Order
+      AOV = SUM(before discount) / COUNT_DISTINCT(id)
   ```
 
 
 ![](Jan2Dec.png)
 
 
-Based on the chart on dashboard page 1, we can see the fluctuation value of Sales, Net Profit and AOV during the period of 2022. The three metrics in above picture (Value Sales, Profit, and AOV) depict an incremental trend during the first 4 months with their peaks that took place in April (USD 11.68M, USD 2.35M, and USD 899K, respectively) as well as a decremental trend from May to Septembery 2022. 
-
-
-![](Jan2Apr.png)
+Based on the chart on page 1, we can see the fluctuation value of Sales, Net Profit and AOV during the period of 2022. The three metrics in above picture (Value Sales, Profit, and AOV) depict an incremental trend during the first 5 months with their peak that took place in May (IDR 11.96B, IDR 1.5B, and IDR 796K respectively) as well as a decremental trend from June to July 2022. After that, Sales and Net Profit regained their positive trend until August 2022 with IDR 3.97B and IDR 711.7M respectively, before decreasing until the end of year. At the same time, AOV regained its positive trend with its peak of IDR 1.3M in September 2022 before gradually dwindling with negative trend until the end of year. 
 
 - Positive AOV trend → company is maximizing the revenue on each purchase, company grows.
 
 - Negative AOV trend → revenue is lower than the ideal and a strategy adjustment must be taken
 
-If we focus on the first 4 months when the trend is positive, customers prefer to buy a great amount of affordable or low-priced items, or some customers prefer to buy a small amount of high-priced item. Therefore, firm need to maintain the currently running campaign and make a campaign improvement.
+
+![](Jan2May.png)
+
+
+If we focus on the first 5 months when the trend is positive, customers prefer to buy a great amount of affordable or low-priced items, or some customers prefer to buy a small amount of high-priced item. Therefore, firm need to maintain the currently running campaign and make a campaign improvement.
 
 Recommendation:
 
@@ -95,12 +96,10 @@ a. Setting up a bundling and /or free delivery cost scheme for purchasing in a g
 b. Offering the customers protection on the products they buy for high-priced or premium items.
 
 
-![](May2Dec.png)
+![](Sep2Dec.png)
 
 
-The Sales, Net Profit, and AOV xperienced a decreasing or negative trend fom May to September before and regained their positive trends during the following two months (October and peak at November 2022) with USD 7.72M, USD 9.01K, and USD 1.93M, respectively, before finally decreasing until the end of year.
-
-The negative trend between May and September 2022 might indicate that there is a possibility that customers prefer to buy much cheaper products. This can also mean that they hold their spending during the rest of the Q4, while waiting for their end year bonuses. Therefore, a pivotal campaign strategy needs to be taken by firm’s marketing team to drive more and more customers to browse the products which eventually lead them to make the purchases.
+Between September and December 2022, when the trend is negative, there is a possibility that customers prefer to buy much cheaper products. This can also mean that they hold their spending during the rest of the Q4, while waiting for their end year bonuses. Therefore, a pivotal campaign strategy needs to be taken by firm’s marketing team to drive more and more customers to browse the products which eventually lead them to make the purchases.
 
 Recommendation:
 
@@ -110,9 +109,9 @@ b. Sell the products on the discounted rates
 
 If we take a look closer of page 2 Sales Dashboard, we can make a deeper analysis from the dataset. We can find how many products have been sold and paid for Mobiles and Tablet Category during the year 2022, and how many customer made those purchase.
 
-![](p2.png)
+![](P2.png)
 
-Based on table in page 2 of the visualization, there was total of 40 product in the Category of Mobiles and Tablets which have been sold and paid during the period of 2022. The number corresponds to 5 Customers who made and paid the purchases.
+Based on table in page 2 of the visualization, there is total of 289 product in the Category of Mobiles and Tablets which have been sold and paid during the period of 2022. The number corresponds to 177 Customers who made the purchases.
 
 ## Conclusion
 We can use the looker dashboard not only to display numbers but also to find insights that can be useful in order to address any related issue. This analytical tool is also useful to provide a better understanding of the firm’s performance based on the agreed metrics shown, as well as to craft a better data-driven strategy.
