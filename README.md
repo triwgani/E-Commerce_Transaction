@@ -34,7 +34,7 @@ Following up a join meeting in a company, a data analyst team has been assigned 
    a. Page 1 will describe correlation between Sales value (before discount), Net Profit, and AOV (Average Order Value). The Net Profit and the AOV is are determined by the following formula:
       ```sh
       Net Profit = Sales Value (after_discount) - [COGS x Qty]
-      AOV = Sales Value (before_discount) / Tottal Unique Order
+      AOV = Sales Value (before_discount) / Total Unique Order
       ```
       
    b. There will be slicers of Order Date, Category, Sales Value, Value Transaction and Payment. The Value Transaction has the following condition:
@@ -57,7 +57,7 @@ Following up a join meeting in a company, a data analyst team has been assigned 
 ## Analyzing the data and addressing the problems
 - Adding Net Profit field:
   ```sh
-      Net Profit = after discount - (COGS x Qty)
+      Net Profit = after_discount - (COGS x Qty)
   ```
   
   
@@ -70,7 +70,7 @@ Following up a join meeting in a company, a data analyst team has been assigned 
   
 - Adding AOV (Average Order Value):
   ```sh
-      AOV = SUM(before discount) / COUNT_DISTINCT(id)
+      AOV = SUM(before_discount) / COUNT_DISTINCT(id)
   ```
 
 
@@ -122,6 +122,7 @@ The link for the online visualization dashboard of the above analysis can be fou
 
  ![](Viz1.png)
  Visualization for Sales Detail
+
 
 
  ![](Viz2.png)
