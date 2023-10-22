@@ -132,6 +132,7 @@ The link for the online visualization dashboard of the above analysis can be fou
  2. Full stack Intensive Bootcamp for Data Analyst by MySkill.id (Data Visualization Part 1 and 2)
 
  ## Acknowledgement
- [Azka Nur Afifah](https://www.linkedin.com/in/azkanuraf/), [Wijaya Putra](https://www.linkedin.com/in/wijaya-putra-0780a3135/), [Rizky Teguh Kurniawan](https://www.linkedin.com/in/rizkitk/), [Achmad Nafila Rozie](https://www.linkedin.com/in/achmadrozie/), and team from [My Skill.id](https://myskill.id)
+ [Azka Nur Afifah](https://www.linkedin.com/in/azkanuraf/), [Wijaya Putra](https://www.linkedin.com/in/wijaya-putra-0780a3135/), [Achmad Nafila Rozie](https://www.linkedin.com/in/achmadrozie/), and team from [My Skill.id](https://myskill.id), [Rizky 
+ Teguh Kurniawan](https://www.linkedin.com/in/rizkitk/),
 
 
