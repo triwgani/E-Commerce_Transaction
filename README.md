@@ -134,3 +134,4 @@ The link for the online visualization dashboard of the above analysis can be fou
 
 ## Acknowledgement
 
+[Azka Nur Afifah](https://www.linkedin.com/in/azkanuraf/), [Wijaya Putra](https://www.linkedin.com/in/wijaya-putra-0780a3135/), [Achmad Nafila Rozie](https://www.linkedin.com/in/achmadrozie/), [Rizky Teguh Kurniawan](https://www.linkedin.com/in/rizkitk/), and team from [My Skill.id](https://myskill.id)
